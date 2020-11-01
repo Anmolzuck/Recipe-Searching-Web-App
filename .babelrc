@@ -1,0 +1,13 @@
+{
+    "presets":[ // are small codes that actually apply transforamtion to our code
+       ["env", {
+            "targets": {
+                "browsers":[
+                    "last 5 versions",
+                    "ie >=8"
+                ]
+                    
+           }
+        }]
+    ]
+}
